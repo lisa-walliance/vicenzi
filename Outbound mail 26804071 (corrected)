@@ -1,3 +1,277 @@
+Received: from VI1P194MB0687.EURP194.PROD.OUTLOOK.COM (2603:10a6:800:159::24)
+ by PR3P194MB0811.EURP194.PROD.OUTLOOK.COM with HTTPS; Mon, 3 Oct 2022
+ 15:40:15 +0000
+Received: from OS6P279CA0096.NORP279.PROD.OUTLOOK.COM (2603:10a6:e10:3d::16)
+ by VI1P194MB0687.EURP194.PROD.OUTLOOK.COM (2603:10a6:800:159::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5676.24; Mon, 3 Oct
+ 2022 15:40:14 +0000
+Received: from HE1EUR04FT020.eop-eur04.prod.protection.outlook.com
+ (2603:10a6:e10:3d:cafe::cc) by OS6P279CA0096.outlook.office365.com
+ (2603:10a6:e10:3d::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5676.30 via Frontend
+ Transport; Mon, 3 Oct 2022 15:40:14 +0000
+Authentication-Results: spf=pass (sender IP is 147.253.214.240)
+ smtp.mailfrom=outbound.intercom.walliance.eu; dkim=pass (signature was
+ verified) header.d=walliance.eu;dmarc=bestguesspass action=none
+ header.from=walliance.eu;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of
+ outbound.intercom.walliance.eu designates 147.253.214.240 as permitted
+ sender) receiver=protection.outlook.com; client-ip=147.253.214.240;
+ helo=mta-253-214-240.intercom.com.sparkpostmail.com; pr=C
+Received: from mta-253-214-240.intercom.com.sparkpostmail.com
+ (147.253.214.240) by HE1EUR04FT020.mail.protection.outlook.com
+ (10.152.26.199) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5676.17 via Frontend
+ Transport; Mon, 3 Oct 2022 15:40:13 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:EEA6E9A220F5E45120465EEC2AD70021447442DE9F4006D17C9529C80D3DCCD2;UpperCasedChecksum:8B04AA1E86A28931D043D10325888D0D04441872F3E74EB83CFDA451A9D1C8BD;SizeAsReceived:1841;Count:17
+X-MSFBL: OqPSQSC6M6Hiz65QxSw3ZgDbsRJoSR93jQTp5uNtklw=|eyJ0ZW5hbnRfaWQiOiJ
+	pbnRlcmNvbSIsIm1lc3NhZ2VfaWQiOiI2MzMzNWMwMjNiNjMzMzJmNGJhZiIsInI
+	iOiJsdWNlLmxhbmRvbGZpQGxpdmUuaXQiLCJjdXN0b21lcl9pZCI6IjEiLCJzdWJ
+	hY2NvdW50X2lkIjoiMjE0OTkifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=walliance.eu;
+	s=intercom; t=1664811612; i=@walliance.eu;
+	bh=eRsmGJU1YV7CxsE2O4VOYTLGLzpD9Fhe76GKQH4CYmA=;
+	h=To:Content-Type:Date:Message-ID:Subject:From:List-Unsubscribe:
+	 From:To:Cc:Subject;
+	b=ZeFwerPPifeoCmZHiv8H4CVqQ71VASPKTVJJkuxNdl28duAeZUGARd2x2xi9me77x
+	 dOrN5YKxrW23xmc/iNAeVsD9Jlvu/iyQXnC3PxR2bazAAZGCleNxmpw01qmaAxPzbF
+	 QhX3BL/I7OOsu5ly0JXMrm3tL0EbqqO6Haam7Zm8=
+To: luce.landolfi@live.it
+Content-Type: multipart/alternative; boundary="_----vl2pRiXRTDnGOPHkGMIzjg===_64/FA-01450-C520B336"
+X-Mailgun-Variables: {"app_id":"mdppyr0y","conversation_id":"73848002556454","user_id":"5e138f444dfec542a90c24f4","intercom_localized_email_content_id":"19370390"}
+Date: Mon, 03 Oct 2022 15:40:12 +0000
+X-Mailgun-Tag: user-custom
+X-Intercom-App-Id: mdppyr0y
+X-Intercom-Bin: 160
+Reply-To: Walliance Investimenti <hello@walliance.eu>
+Message-ID: <f5a0bb44-f62328cf-1664811612-73848002556454@walliance-aa68db7bba06.intercom-mail-160.com>
+X-Report-Abuse: Please report spam or abuse to abuse@intercom.io
+Subject: =?utf-8?B?8J+TuSBCRUxMIEdyb3VwIHByZXNlbnRhIGxhIG51b3ZhIG9mZmVy?=
+	=?utf-8?B?dGEgZGkgaW52ZXN0aW1lbnRv?=
+From: "Walliance Investimenti" <hello@walliance.eu>
+X-Auto-Response-Suppress: OOF, AutoReply
+List-Unsubscribe: <mailto:unsubscribe_73848002556454_5e138f444dfec542a90c24f4@walliance-aa68db7bba06.intercom-mail.com>, <https://walliance-aa68db7bba06.intercom-mail.com/subscriptions/unsubscribe?app_id=mdppyr0y&conversation_id=73848002556454&user_id=5e138f444dfec542a90c24f4&source=header>
+X-IncomingHeaderCount: 17
+Return-Path: bounces+73848002556454@outbound.intercom.walliance.eu
+X-MS-Exchange-Organization-ExpirationStartTime: 03 Oct 2022 15:40:14.3660
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 5f15ce08-875c-459b-9f34-08daa55590a1
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: HE1EUR04FT020:EE_|VI1P194MB0687:EE_
+X-MS-Exchange-Organization-AuthSource:
+ HE1EUR04FT020.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/3/2022 2:58:58 PM
+X-MS-Office365-Filtering-Correlation-Id: 5f15ce08-875c-459b-9f34-08daa55590a1
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 147.253.214.240
+X-SID-PRA: HELLO@WALLIANCE.EU
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 5
+X-Microsoft-Antispam: BCL:5;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Oct 2022 15:40:13.8036
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5f15ce08-875c-459b-9f34-08daa55590a1
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ HE1EUR04FT020.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1P194MB0687
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0959613
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5676.030
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000305)(90000117)(90012020)(91020020)(91040095)(5061607266)(5061608174)(9050020)(9100338)(2008001134)(4810004)(4910033)(8810097)(9610025)(9560006)(10180021)(9320005)(9245025);RF:JunkEmail;
+X-Message-Info:
+	6hMotsjLow+E5zVGFflR6aMaDvhivZt3QmR9lqnyZYKxKWJ8b6FUyojWVt3P8iRiv+BAGrhkIVTN7Yeu93ZmT/fmVOEZZpi+2ixljVRUnpRIEJzUfyUgik1H1xbvOwa95lkpA6KV5vLV9Y/ydr5Gy3xa/z8Uj/GV7oh4tTGxiJ11jo2QFy92q44RIy7q8Tzczfk0ii02IwdnRTe5uKbhhw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MjtHRD0xO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?cE1vRTZVRGN0Tk45MHNFczdGMnBoSmhYaHNSZ0JKeVVEMnBrNmt2WUZlOTBp?=
+ =?utf-8?B?UTRUZ0hjeWxQRzFLT2FLUlpIa2hGSUYxdkxQY2dqSkQyZDlkaCtGTUNhZ3c5?=
+ =?utf-8?B?YURER2lYWk5CRGYxRGRaL1NtY3V5QThqekVsL0VpNlVXSEpIQXZPdWppbjRT?=
+ =?utf-8?B?bGFveUc0VW1SSm1hd1JYTkhDZ3FReEtlbWU4TjR1L21rN2pUTWZ3U2lKbWlD?=
+ =?utf-8?B?Q2pHLzNDZTV0bS9INGgvc1ZUWGFkSVk5N25jdWtFbXpEWEJPVjN3MjRTdE14?=
+ =?utf-8?B?c1RNbHh4c2E0dDJEZFMyN3Bzb1JWQ0srS2k1TklrK0NoUzl4ZHRNdTlLQmZJ?=
+ =?utf-8?B?TUEzZVo2Q2tybWVBZEU1NXk0cmFjOCtWTlREc0k3bmRnOWJpZ0FKWFRicTd2?=
+ =?utf-8?B?TXYrYjNFQ3N3SU1vbTM2OERsUlBzMUlOdUgwSUpFcENGRUljU3lKZGh4QWZ0?=
+ =?utf-8?B?cWRXbWhPc2wwZTc5U0J4Z0o0MG1vaEJ1ZFZTaHZPdUhOVWpscUVZRWp0U2lV?=
+ =?utf-8?B?YS83eWtCdEw4eUZwdng2eW5XRGtSc3NZTmhHYWw1dDBzdHlXWkR3ZDJiem5n?=
+ =?utf-8?B?U0dxOEpFYWI3dFpLVTRXcDJSWW12SFdHODBxUFZEaDFyN1R6WnJ2ZGxGZ05R?=
+ =?utf-8?B?YXppTHU3RXBuNTBLazBtcTZPZ2QzZjlkKzdHK0JEeUtLWWszM2lDYlJhQW8z?=
+ =?utf-8?B?dUIrc0Y2NE1IZFBwNVVDY2JyWUttVVQyY1kxU2daTVhkRnBPajZnVVF4TEFJ?=
+ =?utf-8?B?ZDJ2VFlQei9xN1UwdUhpaU9wRkZZT0N6TDlqaU9kVWZxOVV0NXEyTGZjdi9w?=
+ =?utf-8?B?V1h4OUFoWndMSi9ya0QvYUk4ZE1pMzU0dXpwTEFMTklwZGhHNERpeEN6WWJN?=
+ =?utf-8?B?UExUOHlyN1NESDYrK1lDTnZMZGZJSDRlV3BzSU1hdklRcGMzbFR3azF0czVK?=
+ =?utf-8?B?TEY3UTJCQVZVTmFZUk1NR3VFQWpPNk9DQTdldFovdEZBVE9vYk1WSE5jdU84?=
+ =?utf-8?B?bWprR0c3dXRVSUJoOW56ZDZXdVNOdWJUalBDM3ZMQXk5MXFYallVb2xndG1P?=
+ =?utf-8?B?QUNsL2tMTjU0aTdtRUZuNnZRM2ZwSWZ6cGZHTU5IOEM2TU4xcnBFcWF5RXNz?=
+ =?utf-8?B?NnFpTWVlckMzbTZITnVTbTlRUGpZL0s1cythZHh4Q0xWNU5UeUlWSzhZcjBj?=
+ =?utf-8?B?Ry9ZdlJPSHo5VW5aMm5tLzUzMHgxTG5KZW1LOWt5a096QzlQQXFuZGthUmRk?=
+ =?utf-8?B?Ri9ZeTJiV3RTdHpXMjhsVXJKbnpHNXh6RzcvRlFSYkhCMnl5R2FkS0hqV2ZE?=
+ =?utf-8?B?R1pqN0pMUGY1bFJnV0VzZXBPZmpvdUlPZUhySTdNajRMU05TbkNJZlVSYm9M?=
+ =?utf-8?B?NVVkNDV1TDNrRXF0WmU4eVBQb3p5UXBEUlNRQ2FpenpEMlM0eG13c3kveHFH?=
+ =?utf-8?B?UDM5Qng3TnIxeWFJWGRYYlAwRmVuSWhlRE1FSDROcXJ4bDBQN0k4bTZSdGw1?=
+ =?utf-8?B?WWlqRHJZRDhDaTcxL04ySEJQUHc5MGJFMFE1T0FKQ1NkRllHa1pkZnNva3Fa?=
+ =?utf-8?B?Wk1xSVYvbU1WVUdldXFiV08zdVJoWE93ZWkvM2xoNDVqRDB5dXBDdmx0ZCtu?=
+ =?utf-8?B?SUdSQy9jWGRyaWhNazBVZHd0RXpqYmdPLzNyUjNVUWxXak9IQTN3ckpPTnhs?=
+ =?utf-8?B?T3QyWlhBM1JjdHVFd2ZXZlFUdlNGSzdibjJzbS91RHhWNkx4RUVHOXVRRjl4?=
+ =?utf-8?B?SDBDMlZIeUhTQWltKzZXb1dOKzBoVHRCWGphMEVnZkcwOFlmRUVjZkJGODFy?=
+ =?utf-8?B?SjU0ZHAvRHFWa3JlenRXOHJyRWNGL3ZuMmN4RStUd3NJRFlIZnRleUxjYXpV?=
+ =?utf-8?B?Y3FJZ1JUdTk5VS9abndtdklRNGpidGRweFR0SGlGU0VEbUtoUnIxS2ZVRTd0?=
+ =?utf-8?B?cysvTjk0Y0haaFB0N3QrN2dVMFpDVWR3ck5MSGt3Z1lEb1lqc2VNZENGMHUw?=
+ =?utf-8?B?THhCYjFaV1FsaFZmckJ1TThwNW5MRHBkcnRBbXR2U2xSZW9aekFuYUIwdFF2?=
+ =?utf-8?B?a0NlMC9UU3ZhbjFlOGUwM0R6L0c3blo1RUNQUFhtajJ2b1F2V0w3LzgrZmNm?=
+ =?utf-8?B?QWxZellSeUVLTnFHVWZzNHd6ZFBvVkVXRXcvdGhhczIwQVFvZ21ubnhJbktu?=
+ =?utf-8?B?QWdqRWgwQjQ3c3gxd3dQRFhBOTh1NlpidTh4WVJHRWFXajJJcFliQ1lSOUVV?=
+ =?utf-8?B?K1BBbkRHYVJWc1JCT3lSR0JTTXBhcEMvU2xuc3FTaW5hdnBBSDk2aytYamRK?=
+ =?utf-8?B?Mzk4dVgrRVpjUml3TmI2MmczajFJVHA4R3VUWkxYVmRPQVZmZUhaOUQzNHJk?=
+ =?utf-8?B?OU9qT1BweUZ1RG9TeFpHL1lEbzU2eDl1cklTRWlaenJ2SkljaXlTRVBEUFBy?=
+ =?utf-8?B?cmZpMVNTSVhQYnJGM29DNVMyMkZ3dzFVajdZWGxOZXV0OHdOL2UyQ2FtK2dR?=
+ =?utf-8?Q?cNjxA4GvMCn?=
+MIME-Version: 1.0
+
+--_----vl2pRiXRTDnGOPHkGMIzjg===_64/FA-01450-C520B336
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Gentile Luce, =0D=0A BELL Group ha tenuto una diretta durante la quale =C3=
+=A8 stato raccontato il progetto "Cusago, Europa Shopping Center". Alla pre=
+sentazione =C3=A8 seguita una Q&amp;A live session dedicata alle domande de=
+gli investitori e utenti che non hanno ancora investito nell'offerta. =0D=
+=0A Puoi rivedere la diretta in scheda progetto, dopo la sezione Documenti.=
+ =0D=0AQ&amp;A live session di BELL Group
+--_----vl2pRiXRTDnGOPHkGMIzjg===_64/FA-01450-C520B336
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style>.intercom-align-right {
+  text-align: right !important;
+}
+.intercom-align-center {
+  text-align: center !important;
+}
+.intercom-align-left {
+  text-align: left !important;
+}
+/* Over-ride for RTL */
+.right-to-left .intercom-align-right{
+  text-align: left !important;
+}
+.right-to-left .intercom-align-left{
+  text-align: right !important;
+}
+.right-to-left .intercom-align-left {
+  text-align:right !important;
+}
+.right-to-left li {
+  text-align:right !important;
+  direction: rtl;
+}
+.right-to-left .intercom-align-left img,
+.right-to-left .intercom-align-left .intercom-h2b-button {
+  margin-left: 0 !important;
+}
+.intercom-attachment,
+.intercom-attachments,
+.intercom-attachments td,
+.intercom-attachments th,
+.intercom-attachments tr,
+.intercom-attachments tbody,
+.intercom-attachments .icon,
+.intercom-attachments .icon img {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.intercom-attachments {
+  margin: 10px 0 !important;
+}
+.intercom-attachments .icon,
+.intercom-attachments .icon img {
+  width: 16px !important;
+  height: 16px !important;
+}
+.intercom-attachments .icon {
+  padding-right: 5px !important;
+}
+.intercom-attachment {
+  display: inline-block !important;
+  margin-bottom: 5px !important;
+}
+
+.intercom-interblocks-content-card {
+  width: 334px !important;
+  max-height: 136px !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  border-radius: 20px !important;
+  font-size: 16px !important;
+  border: 1px solid #e0e0e0 !important;
+}
+
+.intercom-interblocks-link,
+.intercom-interblocks-article-card {
+  text-decoration: none !important;
+}
+
+.intercom-interblocks-article-icon {
+  width: 22.5% !important;
+  height: 136px !important;
+  float: left !important;
+  background-color: #fafafa !important;
+  background-image: url('https://walliance-aa68db7bba06.intercom-mail.com/a=
+ssets/article_book-1a595be287f73c0d02f548f513bfc831.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: 32px !important;
+  background-position: center !important;
+}
+
+.intercom-interblocks-article-text {
+  width: 77.5% !important;
+  float: right !important;
+  background-color: #fff !important;
+}
+
+.intercom-interblocks-link-title,
+.intercom-interblocks-article-title {
+  color: #519dd4 !important;
+  font-size: 15px !important;
+  margin: 16px 18px 12px !important;
+  line-height: 1.3em !important;
+  overflow: hidden !important;
+}
+
+.intercom-interblocks-link-description,
+.intercom-interblocks-article-body {
+  margin: 0 18px 12px !important;
+  font-size: 14px !important;
+  color: #65757c !important;
+  line-height: 1.3em !important;
+}
+
+.intercom-interblocks-link-author,
+.intercom-interblocks-article-author {
+  margin: 10px 15px !important;
+  height: 24px !important;
+  line-height: normal !important;
+}
+
 .intercom-interblocks-link-author-avatar,
 .intercom-interblocks-article-author-avatar {
   width: 16px !important;
@@ -38,151 +312,151 @@
 </style>
 </head>
 
-<body style=3D”color: #000000; font-family: ‘Poppins’, Helvetica, sans-seri=
-f; font-size: 13px; font-weight: 400; margin: 0px; padding: 0px”>
-<div style=3D”color:transparent;visibility:hidden;opacity:0;font-size:0px;b=
+<body style=3D"color: #000000; font-family: 'Poppins', Helvetica, sans-seri=
+f; font-size: 13px; font-weight: 400; margin: 0px; padding: 0px">
+<div style=3D"color:transparent;visibility:hidden;opacity:0;font-size:0px;b=
 order:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!im=
-portant;display:none!important;line-height:0px!important;“><img border=3D”0=
-” width=3D”1" height=3D”1" src=3D”https://walliance-aa68db7bba06.intercom-m=
+portant;display:none!important;line-height:0px!important;"><img border=3D"0=
+" width=3D"1" height=3D"1" src=3D"https://walliance-aa68db7bba06.intercom-m=
 ail.com/q/jPQ1u9HMcaV-ywaNcd9ptQ~~/AAAAAQA~/RgRlHYdcPVcIaW50ZXJjb21CCmMzXAI=
-7YzMvS69SFWx1Y2UubGFuZG9sZmlAbGl2ZS5pdFgEAABT-w~~” alt=3D”“></div>
+7YzMvS69SFWx1Y2UubGFuZG9sZmlAbGl2ZS5pdFgEAABT-w~~" alt=3D""></div>
 
-<style type=3D”text/css”>
+<style type=3D"text/css">
 body {
-font-family: ‘Poppins’, Helvetica, sans-serif; font-weight: 400; color: #00=
+font-family: 'Poppins', Helvetica, sans-serif; font-weight: 400; color: #00=
 0000; font-size: 13px;
 }
 </style>
-    <table width=3D”100%” height=3D”100%” cellspacing=3D”0" cellpadding=3D”=
-0" border=3D”0" style=3D”color: #000000; font-size: 13px; font-weight: 400"=
+    <table width=3D"100%" height=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" style=3D"color: #000000; font-size: 13px; font-weight: 400"=
 >
         <tbody>
 <tr>
-            <td width=3D”100%” valign=3D”top”>
-                <div class=3D”header” style=3D”text-align: center” align=3D=
-“center”>
-                    <a href=3D”https://walliance-aa68db7bba06.intercom-mail=
+            <td width=3D"100%" valign=3D"top">
+                <div class=3D"header" style=3D"text-align: center" align=3D=
+"center">
+                    <a href=3D"https://walliance-aa68db7bba06.intercom-mail=
 .com/via/e?ob=3Dlvy2g5EUa%2Bi8yElxKPVGUyObqyh7hd8GkQMxTB9W4j0%3D&amp;h=3Dd4=
 31fc4bb375cd58212a5a5d48599327c19c2039-mdppyr0y_73848002556454&amp;l=3D628b=
-7d15dd244404e11c483504d93fa760fd5829-18103235" target=3D”_blank” style=3D”c=
-olor: #E40648"><img src=3D”https://www.walliance.eu/assets/images/mail/logo=
--walliance.png” width=3D”165" style=3D”margin-top: 30px; width: 160px”></a>
+7d15dd244404e11c483504d93fa760fd5829-18103235" target=3D"_blank" style=3D"c=
+olor: #E40648"><img src=3D"https://www.walliance.eu/assets/images/mail/logo=
+-walliance.png" width=3D"165" style=3D"margin-top: 30px; width: 160px"></a>
                 </div>
             </td>
         </tr>
         <tr>
-            <td width=3D”100%” height=3D”100%” valign=3D”top”>
-                <div class=3D”content” style=3D”color: #000000; font-family=
-: ‘Poppins’, Helvetica, sans-serif; margin: auto; max-width: 600px; padding=
-: 25px 30px; text-align: left” align=3D”left”>
+            <td width=3D"100%" height=3D"100%" valign=3D"top">
+                <div class=3D"content" style=3D"color: #000000; font-family=
+: 'Poppins', Helvetica, sans-serif; margin: auto; max-width: 600px; padding=
+: 25px 30px; text-align: left" align=3D"left">
                     <p>Gentile Luce,</p>
 <p><b>BELL Group ha tenuto una diretta</b> durante la quale =C3=A8 stato ra=
-ccontato il progetto &quot;<a href=3D”https://walliance-aa68db7bba06.interc=
+ccontato il progetto &quot;<a href=3D"https://walliance-aa68db7bba06.interc=
 om-clicks.com/via/e?ob=3D4QnysNxnyIxv1gw3%2B1QISJPb9e1CxrKvI78LLMPjyKsH%2BZ=
 KFQoJQKQQCBdof7lBxSCTb80tT%2FXqUDMAMZWiU%2BA%3D%3D&amp;h=3D5b86b167f22db65f=
 506f9b75c0775cb2447f50a6-mdppyr0y_73848002556454&amp;l=3D40b93f500c08082e3e=
-93051bc938ed20a5214db6-18103291" target=3D”_blank” class=3D”intercom-conten=
-t-link” style=3D”color: #E40648">Cusago, Europa Shopping Center</a>&quot;. =
+93051bc938ed20a5214db6-18103291" target=3D"_blank" class=3D"intercom-conten=
+t-link" style=3D"color: #E40648">Cusago, Europa Shopping Center</a>&quot;. =
 Alla presentazione =C3=A8 seguita una <b>Q&amp;A live session</b> dedicata =
 alle domande degli investitori e utenti che non hanno ancora investito nell=
-’offerta.</p>
+'offerta.</p>
 <p>Puoi rivedere la diretta in scheda progetto, dopo la sezione Documenti.<=
 /p>
-<table class=3D”intercom-container intercom-align-center” align=3D”center” =
-style=3D”color: #000000; font-size: 13px; font-weight: 400; text-align: cen=
-ter !important”><tbody><tr><td><a class=3D”intercom-h2b-button” target=3D”_=
-blank” href=3D”https://walliance-aa68db7bba06.intercom-clicks.com/via/e?ob=
+<table class=3D"intercom-container intercom-align-center" align=3D"center" =
+style=3D"color: #000000; font-size: 13px; font-weight: 400; text-align: cen=
+ter !important"><tbody><tr><td><a class=3D"intercom-h2b-button" target=3D"_=
+blank" href=3D"https://walliance-aa68db7bba06.intercom-clicks.com/via/e?ob=
 =3D4QnysNxnyIxv1gw3%2B1QISJPb9e1CxrKvI78LLMPjyKsH%2BZKFQoJQKQQCBdof7lBxSCTb=
 80tT%2FXqUDMAMZWiU%2BA%3D%3D&amp;h=3D5b86b167f22db65f506f9b75c0775cb2447f50=
 a6-mdppyr0y_73848002556454&amp;l=3Df2ab202e0e30943c43a19981fecba2b3cc4a1bff=
--18674384" style=3D”background-color: #E40648; border-radius: 50px; color: =
-#fff; cursor: pointer; display: inline-block; font-family: ‘Poppins’, Helve=
+-18674384" style=3D"background-color: #E40648; border-radius: 50px; color: =
+#fff; cursor: pointer; display: inline-block; font-family: 'Poppins', Helve=
 tica, sans-serif; font-size: 13px; line-height: 50px; margin-bottom: 30px; =
 padding-left: 30px; padding-right: 30px; text-decoration: none; text-transf=
-orm: none”>Q&amp;A live session di BELL Group</a></td></tr></tbody></table>
+orm: none">Q&amp;A live session di BELL Group</a></td></tr></tbody></table>
                 </div>
             </td>
         </tr>
         <tr>
-            <td width=3D”100%“>=20
-                <div class=3D”footer” style=3D”background-color: #F2F2F2; c=
-olor: #000000; font-family: ‘Poppins’, Helvetica, sans-serif”>
-                    <div class=3D”content” style=3D”color: #000000; font-fa=
-mily: ‘Poppins’, Helvetica, sans-serif; margin: auto; max-width: 600px; pad=
-ding: 10px 30px 30px”>
-                        <p style=3D”text-align: center” align=3D”center”>
-                            <a href=3D”https://walliance-aa68db7bba06.inter=
+            <td width=3D"100%">=20
+                <div class=3D"footer" style=3D"background-color: #F2F2F2; c=
+olor: #000000; font-family: 'Poppins', Helvetica, sans-serif">
+                    <div class=3D"content" style=3D"color: #000000; font-fa=
+mily: 'Poppins', Helvetica, sans-serif; margin: auto; max-width: 600px; pad=
+ding: 10px 30px 30px">
+                        <p style=3D"text-align: center" align=3D"center">
+                            <a href=3D"https://walliance-aa68db7bba06.inter=
 com-mail.com/via/e?ob=3DaDG9aQMJ0HrL3Z4Edynba%2BSi8VOjotGqo1usDogC6xssDnXPc=
 wiEMfcq52iJ0qdQxAMKADa4h2WA3DSZe4a3Jw%3D%3D&amp;h=3D5c87cc8155993d0b76134e8=
 feaadcb8c7c09be99-mdppyr0y_73848002556454&amp;l=3Ddc5c911616ffe960c5b7b64f1=
-9bc53168f160336-18103236" target=3D”_blank” style=3D”color: #E40648"><img s=
-rc=3D”https://www.walliance.eu/assets/images/mail/icon-youtube.png” width=
-=3D”25" height=3D”25" style=3D”margin-left: 2px; margin-right: 2px; max-wid=
-th: 100% !important”></a>
-                            <a href=3D”https://walliance-aa68db7bba06.inter=
+9bc53168f160336-18103236" target=3D"_blank" style=3D"color: #E40648"><img s=
+rc=3D"https://www.walliance.eu/assets/images/mail/icon-youtube.png" width=
+=3D"25" height=3D"25" style=3D"margin-left: 2px; margin-right: 2px; max-wid=
+th: 100% !important"></a>
+                            <a href=3D"https://walliance-aa68db7bba06.inter=
 com-mail.com/via/e?ob=3D12zngtXIQ2NjmiLfH8w93aY6SLJV6xhpbuYHEkMDVngef4k9jVS=
 nyno21hd%2FMlLq&amp;h=3D7e23609e073e5e9edc2bca3eee19325fd17bd2ef-mdppyr0y_7=
 3848002556454&amp;l=3Dc097c41f13e9c0ea278fd51736b635e1e1d402a0-18103237" ta=
-rget=3D”_blank” style=3D”color: #E40648"><img src=3D”https://www.walliance.=
-eu/assets/images/mail/icon-linkedin.png” width=3D”25" height=3D”25" style=
-=3D”margin-left: 2px; margin-right: 2px; max-width: 100% !important”></a>
-                            <a href=3D”https://walliance-aa68db7bba06.inter=
+rget=3D"_blank" style=3D"color: #E40648"><img src=3D"https://www.walliance.=
+eu/assets/images/mail/icon-linkedin.png" width=3D"25" height=3D"25" style=
+=3D"margin-left: 2px; margin-right: 2px; max-width: 100% !important"></a>
+                            <a href=3D"https://walliance-aa68db7bba06.inter=
 com-mail.com/via/e?ob=3D7WeSbwJMpdGc25ydJbafpeF%2FuXRZhEu9Vw2aLvhziRC0Rh%2F=
 Bv1wnMl0487Ey65Vh&amp;h=3Ded9f1dec81365b42d47848bfc7385f9de7c71fad-mdppyr0y=
 _73848002556454&amp;l=3D3197149fb3b1ff8394d6fce0a5eab47250027923-18103238" =
-target=3D”_blank” style=3D”color: #E40648"><img src=3D”https://www.wallianc=
-e.eu/assets/images/mail/icon-facebook.png” width=3D”25" height=3D”25" style=
-=3D”margin-left: 2px; margin-right: 2px; max-width: 100% !important”></a>
-                            <a href=3D”https://walliance-aa68db7bba06.inter=
+target=3D"_blank" style=3D"color: #E40648"><img src=3D"https://www.wallianc=
+e.eu/assets/images/mail/icon-facebook.png" width=3D"25" height=3D"25" style=
+=3D"margin-left: 2px; margin-right: 2px; max-width: 100% !important"></a>
+                            <a href=3D"https://walliance-aa68db7bba06.inter=
 com-mail.com/via/e?ob=3DMh4LM1IWjV119JpAxwixzvx29MsPpRdlTDOsjq3yYkc8WYl6EYk=
 gmd5owLy0OBPw&amp;h=3D4e03e66d2b19384fcd7e5158855ca2aedea13c9d-mdppyr0y_738=
 48002556454&amp;l=3D5396dd52eaf85743d45e33b771788e95fa379e8f-18103239" targ=
-et=3D”_blank” style=3D”color: #E40648"><img src=3D”https://www.walliance.eu=
-/assets/images/mail/icon-twitter.png” width=3D”25" height=3D”25" style=3D”m=
-argin-left: 2px; margin-right: 2px; max-width: 100% !important”></a>
-                            <a href=3D”https://walliance-aa68db7bba06.inter=
+et=3D"_blank" style=3D"color: #E40648"><img src=3D"https://www.walliance.eu=
+/assets/images/mail/icon-twitter.png" width=3D"25" height=3D"25" style=3D"m=
+argin-left: 2px; margin-right: 2px; max-width: 100% !important"></a>
+                            <a href=3D"https://walliance-aa68db7bba06.inter=
 com-mail.com/via/e?ob=3De8YsO08f4ahEdGMQOQR5LYPvLeOJQygbdd4i7pUHpZdEM7PnAjh=
 skFfNbUvO6GpY&amp;h=3Dd970fffe4a2ad748f52315e967810867d84dbffc-mdppyr0y_738=
 48002556454&amp;l=3D64191c70e900c5f3e7208fcc783a6b02c316641e-18103240" targ=
-et=3D”_blank” style=3D”color: #E40648"><img src=3D”https://www.walliance.eu=
-/assets/images/mail/icon-instagram.png” width=3D”25" height=3D”25" style=3D=
-“margin-left: 2px; margin-right: 2px; max-width: 100% !important”></a>
+et=3D"_blank" style=3D"color: #E40648"><img src=3D"https://www.walliance.eu=
+/assets/images/mail/icon-instagram.png" width=3D"25" height=3D"25" style=3D=
+"margin-left: 2px; margin-right: 2px; max-width: 100% !important"></a>
                         </p>
-                        <p style=3D”font-size: 12px; line-height: 150%; tex=
-t-align: center” align=3D”center”><strong style=3D”font-weight: 600">Hai du=
-bbi o domande? <a href=3D”https://walliance-aa68db7bba06.intercom-mail.com/=
+                        <p style=3D"font-size: 12px; line-height: 150%; tex=
+t-align: center" align=3D"center"><strong style=3D"font-weight: 600">Hai du=
+bbi o domande? <a href=3D"https://walliance-aa68db7bba06.intercom-mail.com/=
 via/e?ob=3Deq7dAooVPsu1Kz0Y0ko7XQJG6TD8i0Irq%2FDdF9aL4SM%3D&amp;h=3D226c673=
 57ddf542324f80e586af2882aa21679ca-mdppyr0y_73848002556454&amp;l=3Ded597f188=
-8c9b3f03366c4310e80b659a84b50f6-18103241" target=3D”_blank” style=3D”color:=
- #000; font-weight: 600; text-decoration: underline”>Visita l=E2=80=99Help =
+8c9b3f03366c4310e80b659a84b50f6-18103241" target=3D"_blank" style=3D"color:=
+ #000; font-weight: 600; text-decoration: underline">Visita l=E2=80=99Help =
 Center</a></strong></p>
-                        <p style=3D”font-size: 12px; line-height: 150%; tex=
-t-align: center” align=3D”center”>Il 25% dei nostri investitori ha dichiara=
-to di averci conosciuto tramite <strong style=3D”font-weight: 600">passapar=
+                        <p style=3D"font-size: 12px; line-height: 150%; tex=
+t-align: center" align=3D"center">Il 25% dei nostri investitori ha dichiara=
+to di averci conosciuto tramite <strong style=3D"font-weight: 600">passapar=
 ola</strong>. Se ti piace quello che facciamo inoltra questa e-mail <strong=
- style=3D”font-weight: 600">ai tuoi contatti a cui potrebbe interessare.</s=
+ style=3D"font-weight: 600">ai tuoi contatti a cui potrebbe interessare.</s=
 trong></p>
-                        <p style=3D”padding-bottom: 10px; padding-top: 10px=
-; text-align: center” align=3D”center”>
-                           <a href=3D”https://walliance-aa68db7bba06.interc=
+                        <p style=3D"padding-bottom: 10px; padding-top: 10px=
+; text-align: center" align=3D"center">
+                           <a href=3D"https://walliance-aa68db7bba06.interc=
 om-mail.com/via/e?ob=3Dzi1ju9OwWU5X%2BLKoe%2FNG6VBHzxED2ZNkbsNqU1omAleR0gAX=
 KsC%2Bw%2FNezo38yHkAdu7g19Mnn9SF%2BvxzzY8gR3vonyVN93PUA1vWbueqyfU%3D&amp;h=
 =3D63d5489930bcf29b1083933b4e8bb42258107c28-mdppyr0y_73848002556454&amp;l=
-=3D2f841ab88fcb9f189aa63baf02bd2ee2ff9ed3de-18103242" target=3D”_blank” sty=
-le=3D”color: #E40648"><img src=3D”https://www.walliance.eu/assets/images/ma=
-il/icon-appstore-it.png” style=3D”height: 40px; max-width: 100% !important;=
- width: 119px” width=3D”119" height=3D”40"></a>
+=3D2f841ab88fcb9f189aa63baf02bd2ee2ff9ed3de-18103242" target=3D"_blank" sty=
+le=3D"color: #E40648"><img src=3D"https://www.walliance.eu/assets/images/ma=
+il/icon-appstore-it.png" style=3D"height: 40px; max-width: 100% !important;=
+ width: 119px" width=3D"119" height=3D"40"></a>
 
-<a href=3D”https://walliance-aa68db7bba06.intercom-mail.com/via/e?ob=3DgIrq=
+<a href=3D"https://walliance-aa68db7bba06.intercom-mail.com/via/e?ob=3DgIrq=
 S0asFbYF40myYBT6kBlFhqRAQNx8uQbbW19IaslfmnWcRPzWb60LGAhHUrDud230N%2FHzBiiwS=
 wo%2BbJzymw%3D%3D&amp;h=3D0231bd401c2f1775cf39fcc27f9182d88954a19f-mdppyr0y=
 _73848002556454&amp;l=3D9b2c739492680e96d02bedc761f397b30e14fa26-18103243" =
-target=3D”_blank” style=3D”color: #E40648"><img src=3D”https://www.wallianc=
-e.eu/assets/images/mail/icon-googleplay-it.png” style=3D”height: 40px; max-=
-width: 100% !important; width: 134px” width=3D”134" height=3D”40"></a>
+target=3D"_blank" style=3D"color: #E40648"><img src=3D"https://www.wallianc=
+e.eu/assets/images/mail/icon-googleplay-it.png" style=3D"height: 40px; max-=
+width: 100% !important; width: 134px" width=3D"134" height=3D"40"></a>
  </p>
-                        <p style=3D”color: #828282; font-size: 9px; line-he=
-ight: 120%; text-align: justify” align=3D”justify”>
+                        <p style=3D"color: #828282; font-size: 9px; line-he=
+ight: 120%; text-align: justify" align=3D"justify">
                             Walliance SpA =C3=A8 il gestore autorizzato Con=
 sob del portale di crowdfunding denominato Walliance. Le operazioni di inve=
 stimento effettuate sui portali di crowdfunding si caratterizzano per un li=
@@ -199,19 +473,19 @@ gli investitori di ottenere una consulenza fiscale o di investimento adegua=
 ta ove necessario. =C2=A9 Walliance 2017-2022
                             <br><br>
                             </p>
-<div style=3D”color: #828282; font-size: 9px; line-height: 120%; text-align=
-: center” align=3D”center”>Aggiorna le <a href=3D”https://walliance-aa68db7=
+<div style=3D"color: #828282; font-size: 9px; line-height: 120%; text-align=
+: center" align=3D"center">Aggiorna le <a href=3D"https://walliance-aa68db7=
 bba06.intercom-mail.com/via/e?ob=3DcSwjPpxWBRfL7QYRiWuCrBkjHVCVdqIbJ2egSZCF=
 SuptHutUvElWVykwY7NF9G%2BF&amp;h=3Dfdb1c1a699bb13ebbe7d107e202d5147c82809d8=
 -mdppyr0y_73848002556454&amp;l=3D8c5a45ca1f91ca7a0394069c4aae232589bfdee0-1=
-8103244" style=3D”color: #828282; font-size: 9px”>Preferenze</a> dal tuo Ac=
+8103244" style=3D"color: #828282; font-size: 9px">Preferenze</a> dal tuo Ac=
 count</div>
-<div style=3D”color: #828282; font-size: 9px; line-height: 120%; text-align=
-: center” align=3D”center”>
-<a href=3D”https://walliance-aa68db7bba06.intercom-mail.com/subscriptions/u=
+<div style=3D"color: #828282; font-size: 9px; line-height: 120%; text-align=
+: center" align=3D"center">
+<a href=3D"https://walliance-aa68db7bba06.intercom-mail.com/subscriptions/u=
 nsubscribe?app_id=3Dmdppyr0y&amp;conversation_id=3D73848002556454&amp;user_=
-id=3D5e138f444dfec542a90c24f4&amp;source=3Dbody” style=3D”color: #828282; f=
-ont-size: 9px”>Cancella l’iscrizione</a> dalle nostre e-mail</div>
+id=3D5e138f444dfec542a90c24f4&amp;source=3Dbody" style=3D"color: #828282; f=
+ont-size: 9px">Cancella l'iscrizione</a> dalle nostre e-mail</div>
                         <p></p>
                     </div>
                 </div>
@@ -221,20 +495,20 @@ ont-size: 9px”>Cancella l’iscrizione</a> dalle nostre e-mail</div>
 </table>
    =20
     <style>
-        @import url(‘https://fonts.googleapis.com/css2?family=3DPoppins:ita=
-l,wght@0,100;0,300;0,500;0,600;1,100;1,300;1,500;1,600&display=3Dswap’);
+        @import url('https://fonts.googleapis.com/css2?family=3DPoppins:ita=
+l,wght@0,100;0,300;0,500;0,600;1,100;1,300;1,500;1,600&display=3Dswap');
         body {
-            font-family: ‘Poppins’, Helvetica, sans-serif;
+            font-family: 'Poppins', Helvetica, sans-serif;
             font-weight: 400;
             color: #000000;
             font-size: 13px;
         }
         .content, .footer {
-            font-family: ‘Poppins’, Helvetica, sans-serif;
+            font-family: 'Poppins', Helvetica, sans-serif;
             color: #000000;
         }
         h1 {
-            font-family: ‘Poppins’, Helvetica, sans-serif;
+            font-family: 'Poppins', Helvetica, sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 30px;
@@ -258,7 +532,7 @@ l,wght@0,100;0,300;0,500;0,600;1,100;1,300;1,500;1,600&display=3Dswap’);
         }
         a.button, button, a.intercom-h2b-button {
             display: inline-block;
-            font-family: ‘Poppins’, Helvetica, sans-serif;
+            font-family: 'Poppins', Helvetica, sans-serif;
             line-height: 50px;
             background: #E40648;
             color: #fff;
@@ -287,15 +561,16 @@ l,wght@0,100;0,300;0,500;0,600;1,100;1,300;1,500;1,600&display=3Dswap’);
 
 
 
-<img src=3D”https://walliance-aa68db7bba06.intercom-mail.com/via/o?h=3D8628=
-09ee24bdeb906e1b3054318163a037d42de8-mdppyr0y_73848002556454" width=3D”1" h=
-eight=3D”1" style=3D”display: block;” alt=3D”intercom”>
+<img src=3D"https://walliance-aa68db7bba06.intercom-mail.com/via/o?h=3D8628=
+09ee24bdeb906e1b3054318163a037d42de8-mdppyr0y_73848002556454" width=3D"1" h=
+eight=3D"1" style=3D"display: block;" alt=3D"intercom">
 
-<img border=3D”0" width=3D”1" height=3D”1" alt=3D”" src=3D”https://wallianc=
+<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"https://wallianc=
 e-aa68db7bba06.intercom-mail.com/q/Bt784vEDDON9jh3BkkoJWg~~/AAAAAQA~/RgRlHY=
-dcPlcIaW50ZXJjb21CCmMzXAI7YzMvS69SFWx1Y2UubGFuZG9sZmlAbGl2ZS5pdFgEAABT-w~~“=
+dcPlcIaW50ZXJjb21CCmMzXAI7YzMvS69SFWx1Y2UubGFuZG9sZmlAbGl2ZS5pdFgEAABT-w~~"=
 >
 </body>
 </html>=
 
 --_----vl2pRiXRTDnGOPHkGMIzjg===_64/FA-01450-C520B336--
+
